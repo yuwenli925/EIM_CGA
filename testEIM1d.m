@@ -1,7 +1,8 @@
 iter = 200;
 
 k = 4; 
-ntype = 'L2';
+ntype = 'Linf';
+% ntype = 'L2';
 f = @(z, b) max(0, b(1).*z+b(2)).^k;
 % f = @(z, b) (b(1).*z+b(2))>0;
 
