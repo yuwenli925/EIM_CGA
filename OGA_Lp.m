@@ -1,4 +1,4 @@
-%% approximate the function f on [0,1] with iter OGA iterations
+%% approximate the function f on [0,1] with iter CGA iterations
 iter = 30; p = 3;
 %f = @(z) sin(2*z)+cos(z); 
 %f = @(z) sin(z);
